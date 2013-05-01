@@ -1,0 +1,55 @@
+else if (3.5 => x && x <= 3.99){
+            window.open("http://sphotos-a.ak.fbcdn.net/hphotos-ak-prn1/531852_500224240011457_108496057_n.jpg")
+        }
+        else if (3 => x && x <= 3.49){
+            window.open("http://25.media.tumblr.com/564a9dbf9d7ae384dc8021e1b0d31055/tumblr_miuirsMBRd1r9p21to1_500.jpg")
+        }
+        else if (2.5>x=<3.99){
+            window.open("http://images.askmen.com/specials/2010_top_99/marisa-miller.jpg")
+        }
+        else if (2.0>x=<2.49){
+            window.open("http://i887.photobucket.com/albums/ac78/Dominate80/Ugly2.jpg")
+        }
+        else if (1.5>x=<1.99){
+            window.open("http://www.singledudetravel.com/wp-content/uploads/2012/02/fat-chick.jpg")
+        }
+        else {
+            window.open("http://1.bp.blogspot.com/__3CuGrqKx-Q/Shs8GBC38oI/AAAAAAAAABo/EgX8DJj3Bm8/s320/ugly+bitch.jpg")
+        };
+
+
+if (x = 4) {
+        window.open("http://3.bp.blogspot.com/-NP5vtzWrn0Y/UWc0THla3-I/AAAAAAAAAxk/2O_rIXPv14I/s1600/Alana+Blanchard+Hot.jpeg")
+        }
+    else if (x >= 3.5 && x<= 3.8) {
+        window.open("http://sphotos-a.ak.fbcdn.net/hphotos-ak-prn1/531852_500224240011457_108496057_n.jpg")
+        }
+};
+
+
+switch (true)
+    {
+        case 4:
+            window.open("http://3.bp.blogspot.com/-NP5vtzWrn0Y/UWc0THla3-I/AAAAAAAAAxk/2O_rIXPv14I/s1600/Alana+Blanchard+Hot.jpeg")
+            break;
+        case 3.9:
+            window.open("http://sphotos-a.ak.fbcdn.net/hphotos-ak-prn1/531852_500224240011457_108496057_n.jpg")
+            break;
+        case 3.8:
+            window.open("http://sphotos-a.ak.fbcdn.net/hphotos-ak-prn1/531852_500224240011457_108496057_n.jpg")
+            break;
+        case 3.7:
+            window.open("http://sphotos-a.ak.fbcdn.net/hphotos-ak-prn1/531852_500224240011457_108496057_n.jpg")
+            break;
+        case 3.6:
+            window.open("http://sphotos-a.ak.fbcdn.net/hphotos-ak-prn1/531852_500224240011457_108496057_n.jpg")
+            break;
+        case 3.5:
+            window.open("http://sphotos-a.ak.fbcdn.net/hphotos-ak-prn1/531852_500224240011457_108496057_n.jpg")
+            break;  
+
+
+        
+    }
+
+};

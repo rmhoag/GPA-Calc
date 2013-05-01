@@ -1,0 +1,359 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+      <title>GPA Calculator</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <style type="text/css">
+          
+
+        .dukepic
+        {
+          position: absolute;
+          left: 50px;
+          top: 20px;
+        }
+        .calc
+          {
+            position: absolute;
+            left: 250px;
+            top: 20px;
+          }
+          .dukepictwo
+          {
+            position: absolute;
+            left: 515px;
+            top: 1px;
+          }
+
+      </style>
+    </head>
+    <body>
+      <div class=dukepic>
+          <img src="http://content.sportslogos.net/logos/32/717/full/2505.gif" width="35%" height="35%">
+  
+
+      
+        <script src="js/script.js"></script>
+        <div class=calc>
+           <table>
+              <tbody> 
+              <tr> 
+                <td valign=top width=529> 
+                  <table cellpadding=2 cellspacing=0 width=530>
+                    <tbody> 
+                    <tr> 
+                      <td bgcolor=#FFFFFF colspan="2" valign="top"> 
+                        <form name="gpadata" method="post">
+                          <center>
+                            <table width="334" border="0" cellspacing="0" cellpadding="0" bgcolor="#333333">
+                              <tr bgcolor="#FFFFFF"> 
+                                <td>
+                                  <center>
+                                    <font size="+2"><strong>Calculate your GPA</strong></font> 
+                                  </center>
+                                </td>
+                              </tr>
+                              <tr> 
+                                <td> 
+                                  <table border="0" cellspacing="0" cellpadding="5" width="330" align="center">
+                                    <tr bgcolor="#E4D101"> 
+                                      <td bgcolor="#E4D101" valign="bottom"> 
+                                        <p align="center"><font face="Arial, Helvetica, sans-serif"><b>Course</b></font></p>
+                                      </td>
+                                      <td> 
+                                        <p align="center"><font face="Arial, Helvetica, sans-serif"><b>Credit 
+                                          Hours</b></font></p>
+                                      </td>
+                                      <td width="60"> 
+                                        <p align="center"><font face="Arial, Helvetica, sans-serif"><b>Grade</b></font></p>
+                                      </td>
+                                    </tr>
+                                    <tr bgcolor="#8804A2"> 
+                                      <td> 
+                                        <center>
+                                          <input type="text" size="20" name="course1">
+                                        </center>
+                                      </td>
+                                      <td> 
+                                        <center>
+                                          <input type="text" size="5" name="credithours1">
+                                        </center>
+                                      </td>
+                                      <td width="60"> 
+                                        <center>
+                                          <select name="grade1">
+                                            <option value="-1">Select 
+                                            <option value="4.0">A 
+                                            <option value="3.7">A- 
+                                            <option value="3.3">B+ 
+                                            <option value="3.0">B 
+                                            <option value="2.7">B- 
+                                            <option value="2.3">C+ 
+                                            <option value="2.0">C 
+                                            <option value="1.7">C- 
+                                            <option value="1.3">D+ 
+                                            <option value="1.0">D 
+                                            <option value="0.7">D- 
+                                            <option value="0.0">F 
+                                            <option value="-1">Select 
+                                            <option value="-1">P 
+                                            <option value="-1">NP 
+                                            <option value="-1">I 
+                                            <option value="-1">W 
+                                          </select>
+                                        </center>
+                                      </td>
+                                    </tr>
+                                    <tr bgcolor="#8804A2"> 
+                                      <td> 
+                                        <center>
+                                          <input type="text" size="20" name="course2">
+                                        </center>
+                                      </td>
+                                      <td> 
+                                        <center>
+                                          <input type="text" size="5" name="credithours2">
+                                        </center>
+                                      </td>
+                                      <td width="60"> 
+                                        <center>
+                                          <select name="grade2">
+                                            <option value="-1">Select 
+                                            <option value="4.0">A 
+                                            <option value="3.7">A- 
+                                            <option value="3.3">B+ 
+                                            <option value="3.0">B 
+                                            <option value="2.7">B- 
+                                            <option value="2.3">C+ 
+                                            <option value="2.0">C 
+                                            <option value="1.7">C- 
+                                            <option value="1.3">D+ 
+                                            <option value="1.0">D 
+                                            <option value="0.7">D- 
+                                            <option value="0.0">F 
+                                            <option value="-1">Select 
+                                            <option value="-1">P 
+                                            <option value="-1">NP 
+                                            <option value="-1">I 
+                                            <option value="-1">W 
+                                          </select>
+                                        </center>
+                                      </td>
+                                    </tr>
+                                    <tr bgcolor="#8804A2"> 
+                                      <td> 
+                                        <center>
+                                          <input type="text" size="20" name="course3">
+                                        </center>
+                                      </td>
+                                      <td> 
+                                        <center>
+                                          <input type="text" size="5" name="credithours3">
+                                        </center>
+                                      </td>
+                                      <td width="60"> 
+                                        <center>
+                                          <select name="grade3">
+                                            <option value="-1">Select 
+                                            <option value="4.0">A 
+                                            <option value="3.7">A- 
+                                            <option value="3.3">B+ 
+                                            <option value="3.0">B 
+                                            <option value="2.7">B- 
+                                            <option value="2.3">C+ 
+                                            <option value="2.0">C 
+                                            <option value="1.7">C- 
+                                            <option value="1.3">D+ 
+                                            <option value="1.0">D 
+                                            <option value="0.7">D- 
+                                            <option value="0.0">F 
+                                            <option value="-1">Select 
+                                            <option value="-1">P 
+                                            <option value="-1">NP 
+                                            <option value="-1">I 
+                                            <option value="-1">W 
+                                          </select>
+                                        </center>
+                                      </td>
+                                    </tr>
+                                    <tr bgcolor="#8804A2"> 
+                                      <td> 
+                                        <center>
+                                          <input type="text" size="20" name="course4">
+                                        </center>
+                                      </td>
+                                      <td> 
+                                        <center>
+                                          <input type="text" size="5" name="credithours4">
+                                        </center>
+                                      </td>
+                                      <td width="60"> 
+                                        <center>
+                                          <select name="grade4">
+                                            <option value="-1">Select 
+                                            <option value="4.0">A 
+                                            <option value="3.7">A- 
+                                            <option value="3.3">B+ 
+                                            <option value="3.0">B 
+                                            <option value="2.7">B- 
+                                            <option value="2.3">C+ 
+                                            <option value="2.0">C 
+                                            <option value="1.7">C- 
+                                            <option value="1.3">D+ 
+                                            <option value="1.0">D 
+                                            <option value="0.7">D- 
+                                            <option value="0.0">F 
+                                            <option value="-1">Select 
+                                            <option value="-1">P 
+                                            <option value="-1">NP 
+                                            <option value="-1">I 
+                                            <option value="-1">W 
+                                          </select>
+                                        </center>
+                                      </td>
+                                    </tr>
+                                    <tr bgcolor="#8804A2"> 
+                                      <td> 
+                                        <center>
+                                          <input type="text" size="20" name="course5">
+                                        </center>
+                                      </td>
+                                      <td> 
+                                        <center>
+                                          <input type="text" size="5" name="credithours5">
+                                        </center>
+                                      </td>
+                                      <td width="60"> 
+                                        <center>
+                                          <select name="grade5">
+                                            <option value="-1">Select 
+                                            <option value="4.0">A 
+                                            <option value="3.7">A- 
+                                            <option value="3.3">B+ 
+                                            <option value="3.0">B 
+                                            <option value="2.7">B- 
+                                            <option value="2.3">C+ 
+                                            <option value="2.0">C 
+                                            <option value="1.7">C- 
+                                            <option value="1.3">D+ 
+                                            <option value="1.0">D 
+                                            <option value="0.7">D- 
+                                            <option value="0.0">F 
+                                            <option value="-1">Select 
+                                            <option value="-1">P 
+                                            <option value="-1">NP 
+                                            <option value="-1">I 
+                                            <option value="-1">W 
+                                          </select>
+                                        </center>
+                                      </td>
+                                    </tr>
+                                    <tr bgcolor="#8804A2"> 
+                                      <td> 
+                                        <center>
+                                          <input type="text" size="20" name="course6">
+                                        </center>
+                                      </td>
+                                      <td> 
+                                        <center>
+                                          <input type="text" size="5" name="credithours6">
+                                        </center>
+                                      </td>
+                                      <td width="60"> 
+                                        <center>
+                                          <select name="grade6">
+                                            <option value="-1">Select 
+                                            <option value="4.0">A 
+                                            <option value="3.7">A- 
+                                            <option value="3.3">B+ 
+                                            <option value="3.0">B 
+                                            <option value="2.7">B- 
+                                            <option value="2.3">C+ 
+                                            <option value="2.0">C 
+                                            <option value="1.7">C- 
+                                            <option value="1.3">D+ 
+                                            <option value="1.0">D 
+                                            <option value="0.7">D- 
+                                            <option value="0.0">F 
+                                            <option value="-1">Select 
+                                            <option value="-1">P 
+                                            <option value="-1">NP 
+                                            <option value="-1">I 
+                                            <option value="-1">W 
+                                          </select>
+                                        </center>
+                                      </td>
+                                    </tr>
+                                    <tr bgcolor="#8804A2"> 
+                                      <td> 
+                                        <center>
+                                          <input type="text" size="20" name="course7">
+                                        </center>
+                                      </td>
+                                      <td bgcolor="#8804A2"> 
+                                        <center>
+                                          <input type="text" size="5" name="credithours7">
+                                        </center>
+                                      </td>
+                                      <td width="60"> 
+                                        <center>
+                                          <select name="grade7">
+                                            <option value="-1">Select 
+                                            <option value="4.0">A 
+                                            <option value="3.7">A- 
+                                            <option value="3.3">B+ 
+                                            <option value="3.0">B 
+                                            <option value="2.7">B- 
+                                            <option value="2.3">C+ 
+                                            <option value="2.0">C 
+                                            <option value="1.7">C- 
+                                            <option value="1.3">D+ 
+                                            <option value="1.0">D 
+                                            <option value="0.7">D- 
+                                            <option value="0.0">F 
+                                            <option value="-1">Select 
+                                            <option value="-1">P 
+                                            <option value="-1">NP 
+                                            <option value="-1">I 
+                                            <option value="-1">W 
+                                          </select>
+                                        </center>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                  <table width="330" border="0" cellspacing="0" cellpadding="0" align="center">
+                                    <tr bgcolor="#8804A2"> 
+                                      <td height="10"></td>
+                                    </tr>
+                                  </table>
+                                  <table width="330" border="0" cellspacing="0" cellpadding="5" align="center">
+                                    <tr bgcolor="#E4D101"> 
+                                      <td colspan="2"> 
+                                        <center>
+                                          <input type="button" name="calculate" value="Calculate Your GPA"
+                                          onClick="gpacalculator(this.form)">
+                                          <input type="reset" name="reset" value="Clear">
+                                          <input type="button" name="calculate" value="Babes?"
+                                          onClick="gpaalert()">
+                                          
+                                        </center>
+                                      </td>
+                                      <td width="60"> 
+                                        <center>
+                                          <input type="text" size="5" name="result">
+                                        </center>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr bgcolor="#E4D101"> 
+                                <td></td></tr></table></div>
+
+                          </center>
+                        </form>
+                        <div class=dukepictwo>
+                                <img src="http://content.sportslogos.net/logos/32/717/full/2505.gif" width="600%" height="600%">
+                              </div>
+  </body>
+</html>
